@@ -1,1 +1,103 @@
-# ImageProcessing-Verilog
+# ImageProc-Verilog
+
+Hardware-based **image processing system** implemented in Verilog with supporting Python scripts for handling `.bmp` ↔ `.mem` conversions.
+Supports both **basic pixel filters** (invert, grayscale, brightness, color filters) and **convolution-based filters** (blur, sharpen, sobel, emboss, outline).
+
+---
+
+## 📂 Project Structure
+
+```
+ImageProc-Verilog/
+├── images/              # Input & output images
+│   ├── all_images/           
+│
+├── scripts/             # Python helper scripts
+│   ├── bmp_to_mem.py            # BMP -> .mem
+│   ├── kernel_mem_generator.py  # BMP -> 3x3 kernel neighborhood
+│   ├── mem_to_bmp.py            # .mem -> BMP
+│
+├── verilog/
+│   ├── tb_convolution/         # Simple pixel-based filters
+│   └── tb_image_proc/     # Convolution testbench + tb_convolution.v
+│
+└── README.md            # This file
+```
+
+---
+
+## 🚀 Workflow
+
+### 1. Prepare Input Image
+
+* Place your test image (e.g., `test.bmp`) into `images/input/`
+
+### 2. Convert BMP → MEM
+
+```bash
+cd scripts
+python bmp_to_mem.py
+```
+
+Generates `input.mem` inside `images/mem/`.
+
+### 3. Generate Kernel Neighborhood (for convolution)
+
+```bash
+python kernel_mem_generator.py
+```
+
+Produces `kernel_input.mem` for convolution filters.
+
+### 4. Run Verilog Simulation
+
+* Open Vivado, set simulation top to the required testbench (e.g., `tb_convolution`).
+* Run simulation to produce `.mem` outputs in `images/mem/`.
+
+### 5. Convert MEM → BMP
+
+```bash
+python mem_to_bmp.py
+```
+
+Converts `.mem` files (blur.mem, sobel_edge.mem, etc.) back into `.bmp` inside `images/output/`.
+
+---
+
+## 🎨 Filters Implemented
+
+### Basic Filters (`verilog/filters/`)
+
+* Invert
+* Grayscale
+* Brightness Increase / Decrease
+* Red / Green / Blue channel filters
+
+### Convolution Filters (`verilog/convolution/`)
+
+* Blur (average filter)
+* Motion Blur (diagonal)
+* Sharpen
+* Sobel Edge Detection
+* Emboss
+* Outline
+
+---
+
+## 🛠 Requirements
+
+* **Vivado 2024.2** (or compatible)
+* **Python 3.8+**
+* `Pillow` library for image handling
+
+Install dependencies:
+
+```bash
+pip install pillow
+```
+
+---
+
+## 📜 License
+
+This project is for learning and experimentation. Free to use and adapt.
