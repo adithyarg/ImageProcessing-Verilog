@@ -94,7 +94,7 @@ All images are located in [`images/output/`](images/output/).
 ## 🔹 tb_image_proc outputs
 
 ### Grayscale
-![Grayscale](images/output/grayscale.bmp)
+![Grayscale](images/grayscale.bmp)
 
 ### Invert
 ![Invert](images/output/invert.bmp)
