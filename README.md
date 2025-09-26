@@ -94,47 +94,47 @@ All images are located in [`images/output/`](images/output/).
 ## 🔹 tb_image_proc outputs
 
 ### Invert
-![Invert](https://github.com/adithyarg/ImageProcessing-Verilog/blob/76c6d131de32f2cd0b925cf29fff47c775a248d1/images/2.Invert.bmp)
+![Invert](https://github.com/adithyarg/ImageProcessing-Verilog/blob/76c6d131de32f2cd0b925cf29fff47c775a248d1/images/1.Invert.bmp)
 
 ### Grayscale
 ![Grayscale](https://github.com/adithyarg/ImageProcessing-Verilog/blob/76c6d131de32f2cd0b925cf29fff47c775a248d1/images/2.Grayscale.bmp)
 
 ### Brightness Increase
-![Brightness +](images/output/brightness_inc.bmp)
+![Brightness +](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/3.BrightnessInc.bmp)
 
 ### Brightness Decrease
-![Brightness -](images/output/brightness_dec.bmp)
+![Brightness -](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/4.BrightnessDec.bmp)
 
 ### Red Filter
-![Red Filter](images/output/red_filter.bmp)
+![Red Filter](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/5.RedFilter.bmp)
 
 ### Green Filter
-![Green Filter](images/output/green_filter.bmp)
+![Green Filter](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/6.GreenFilter.bmp)
 
 ### Blue Filter
-![Blue Filter](images/output/blue_filter.bmp)
+![Blue Filter](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/7.BlueFilter.bmp)
 
 ---
 
 ## 🔹 tb_convolution outputs
 
 ### Blur
-![Blur](images/output/blur.bmp)
+![Blur](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/blur.bmp)
 
 ### Motion Blur
-![Motion Blur](images/output/motion_blur.bmp)
+![Motion Blur](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/motion_blur.bmp)
 
 ### Sharpen
-![Sharpen](images/output/sharpen.bmp)
+![Sharpen](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/sharpen.bmp)
 
 ### Sobel Edge Detection
-![Sobel Edge](images/output/sobel_edge.bmp)
+![Sobel Edge](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/sobel_edge.bmp)
 
 ### Emboss
-![Emboss](images/output/emboss.bmp)
+![Emboss](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/emboss.bmp)
 
 ### Outline
-![Outline](images/output/outline.bmp)
+![Outline](https://github.com/adithyarg/ImageProcessing-Verilog/blob/313dba3d3520cd626076aade8924f283e6ebebce/images/outline.bmp)
 
 
 ## 🛠 Requirements
