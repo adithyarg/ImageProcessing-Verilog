@@ -93,11 +93,11 @@ All images are located in [`images/output/`](images/output/).
 
 ## 🔹 tb_image_proc outputs
 
-### Grayscale
-![Grayscale](images/grayscale.bmp)
-
 ### Invert
-![Invert](images/output/invert.bmp)
+![Invert](https://github.com/adithyarg/ImageProcessing-Verilog/blob/76c6d131de32f2cd0b925cf29fff47c775a248d1/images/2.Invert.bmp)
+
+### Grayscale
+![Grayscale](https://github.com/adithyarg/ImageProcessing-Verilog/blob/76c6d131de32f2cd0b925cf29fff47c775a248d1/images/2.Grayscale.bmp)
 
 ### Brightness Increase
 ![Brightness +](images/output/brightness_inc.bmp)
