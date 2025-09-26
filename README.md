@@ -51,7 +51,7 @@ Produces `kernel_input.mem` for convolution filters.
 
 ### 4. Run Verilog Simulation
 
-* Open Vivado, set simulation top to the required testbench (e.g., `tb_convolution`).
+* Open Vivado, set simulation top to the required testbench (e.g., `tb_convolution`and 'tb_image_proc').
 * Run simulation to produce `.mem` outputs in `images/mem/`.
 
 ### 5. Convert MEM → BMP
@@ -66,14 +66,14 @@ Converts `.mem` files (blur.mem, sobel_edge.mem, etc.) back into `.bmp` inside `
 
 ## 🎨 Filters Implemented
 
-### Basic Filters (`verilog/filters/`)
+### Basic Filters (`verilog/tb_image_proc/`)
 
 * Invert
 * Grayscale
 * Brightness Increase / Decrease
 * Red / Green / Blue channel filters
 
-### Convolution Filters (`verilog/convolution/`)
+### Convolution Filters (`verilog/tb_convolution/`)
 
 * Blur (average filter)
 * Motion Blur (diagonal)
@@ -91,7 +91,7 @@ All images are located in [`images/output/`](images/output/).
 
 ---
 
-## 🔹 Basic Filters
+## 🔹 tb_image_proc outputs
 
 ### Grayscale
 ![Grayscale](images/output/grayscale.bmp)
@@ -116,7 +116,7 @@ All images are located in [`images/output/`](images/output/).
 
 ---
 
-## 🔹 Convolution Filters
+## 🔹 tb_convolution outputs
 
 ### Blur
 ![Blur](images/output/blur.bmp)
