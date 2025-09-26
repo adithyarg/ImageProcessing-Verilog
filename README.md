@@ -51,7 +51,7 @@ Produces `kernel_input.mem` for convolution filters.
 
 ### 4. Run Verilog Simulation
 
-* Open Vivado, set simulation top to the required testbench (e.g., `tb_convolution`and 'tb_image_proc').
+* Open Vivado, set simulation top to the required testbench (e.g., `tb_convolution`and `tb_image_proc`).
 * Run simulation to produce `.mem` outputs in `images/mem/`.
 
 ### 5. Convert MEM → BMP
