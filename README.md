@@ -66,14 +66,14 @@ Converts `.mem` files (blur.mem, sobel_edge.mem, etc.) back into `.bmp` inside `
 
 ## 🎨 Filters Implemented
 
-### Basic Filters (`verilog/tb_image_proc/`)
+### Basic Filters (`verilog/tb_image_proc.v/`)
 
 * Invert
 * Grayscale
 * Brightness Increase / Decrease
 * Red / Green / Blue channel filters
 
-### Convolution Filters (`verilog/tb_convolution/`)
+### Convolution Filters (`verilog/tb_convolution.v/`)
 
 * Blur (average filter)
 * Motion Blur (diagonal)
