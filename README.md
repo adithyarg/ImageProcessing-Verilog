@@ -18,8 +18,8 @@ ImageProc-Verilog/
 │   ├── mem_to_bmp.py            # .mem -> BMP
 │
 ├── verilog/
-│   ├── tb_convolution/         # Simple pixel-based filters
-│   └── tb_image_proc/     # Convolution testbench + tb_convolution.v
+│   ├── tb_convolution.v/         # Simple pixel-based filters
+│   └── tb_image_proc.v/     # Convolution testbench + tb_convolution.v
 │
 └── README.md            # This file
 ```
